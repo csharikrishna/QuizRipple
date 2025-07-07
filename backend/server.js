@@ -12,7 +12,9 @@ const app = express();
 const allowedOrigins = [
   process.env.CLIENT_ORIGIN,
   'https://quiz-ripple-theta.vercel.app',
-  'https://quiz-ripple-git-main-hari-krishnas-projects-9cdcf07f.vercel.app/',
+  'https://quiz-ripple-git-main-hari-krishnas-projects-9cdcf07f.vercel.app',
+  'https://quiz-ripple-opiupc058-hari-krishnas-projects-9cdcf07f.vercel.app',
+  'https://quiz-ripple-hari-krishnas-projects-9cdcf07f.vercel.app',
   'http://localhost:3000',
   'http://localhost:3001'
 ];
