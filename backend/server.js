@@ -1,3 +1,4 @@
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -10,8 +11,8 @@ const app = express();
 // Enhanced CORS configuration for Vercel + Render
 const allowedOrigins = [
   process.env.CLIENT_ORIGIN,
-  'https://your-app.vercel.app',
-  'https://your-app-git-main.vercel.app',
+  'https://quiz-ripple-theta.vercel.app',
+  'https://quiz-ripple-git-main-hari-krishnas-projects-9cdcf07f.vercel.app/',
   'http://localhost:3000',
   'http://localhost:3001'
 ];
